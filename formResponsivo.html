@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formResponsivo.css">
+    <title>Formulário Responsivo</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main class="container">
+        
+        <div class="introducao">
+            <h1 class="titulo">Form Responsivo</h1>
+            <p class="paragrafo">O layout do form se altera quando a largura da tela se torna igual ou inferior a 768px</p>
+        </div>
+    
+        <form method="post" class="formulario">
+            <div class="bloco">
+                <label for="email" class="label">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="campo">
+            </div>
+            
+            <div class="bloco">
+                <label for="senha" class="label">Senha: </label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" class="campo">
+            </div>
+
+            <div class="bloco">
+                <label for="opcao" class="label">Opção: </label>
+                <select id="opcao" name="opcao" class="campo">
+                    <option value="html">Padrão &#40;HTML&#41;</option>
+                    <option value="ajax">Avançado &#40;AJAX&#41;</option>
+                </select>
+            </div>
+            
+            <input type="submit" value="Entrar" name="submeter" class="botao">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
